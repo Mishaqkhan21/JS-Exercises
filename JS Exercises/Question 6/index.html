@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 06</title>
+</head>
+<body>
+    
+
+
+    <script>
+        var studentName = prompt("Enter student name:");
+
+        var english = Number(prompt("Enter English marks:"));
+        var math = Number(prompt("Enter Math marks:"));
+        var science = Number(prompt("Enter Science marks:"));
+
+        var totalMarks = 300;
+        var obtainedMarks = english + math + science;
+
+        alert(`
+        Student Name: ${studentName}
+
+        English: ${english}
+        Math: ${math}
+        Science: ${science}
+
+        Total Marks: ${totalMarks}
+        Obtained Marks: ${obtainedMarks}
+        `);
+    </script>
+</body>
+</html>
